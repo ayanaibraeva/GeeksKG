@@ -1,0 +1,52 @@
+.OurValues {
+    margin-top: 100px;
+    padding-top: 100px;
+}
+.OurValues__content h2 {
+    font-family: Roboto;
+    font-size: 35px;
+    color: #ffe743;
+    font-weight: 500;
+}
+.blocks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ffffff;
+    padding: 0 20px;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #999999;
+    width: auto;
+    margin: 20px;
+    padding: 48px 40px;
+    height: 164px;
+    gap: 60px;
+    overflow: hidden;
+}
+.titleOurValues {
+    display: flex;
+    align-items: center;
+    /*width: 100%;*/
+    gap: 10px;
+
+}
+.titleOurValues img {
+    width: 64px;
+    height: 64px;
+}
+.titleOurValues h3 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffe743;
+}
+.block p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ffffff;
+}

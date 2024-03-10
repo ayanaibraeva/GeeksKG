@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Reforma Grotesk';
+    src: local('Reforma Grotesk Bold'), local('Reforma-Grotesk-Bold'),
+        url('ReformaGroteskBold.woff2') format('woff2'),
+        url('ReformaGroteskBold.woff') format('woff'),
+        url('ReformaGroteskBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }

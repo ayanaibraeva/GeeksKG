@@ -1,0 +1,103 @@
+[
+    {
+        "id": 1,
+        "img_grey": "https://geeks.kg/back_media/course/2023/10/10/e0be7c7c-d5c8-46ca-ae1a-912c16c9e5e2.png",
+        "img_color": "https://geeks.kg/back_media/course/2023/10/10/59b2942a-170f-4e29-a3c9-9037aaa06897.png",
+        "start_date": "29.02.2024",
+        "title": "ТЕСТИРОВЩИК ПО",
+        "description": "Стань тестировщиком ПО с нуля за 3 месяца и получи доступ к стажировке + помощь в трудоустройстве!",
+        "duration": "Длительность: 3 месяца",
+        "buttom": "Подробнее",
+        "arrow": "./images/arrow.svg"
+    },
+    {
+        "id": 2,
+        "img_grey": "https://geeks.kg/back_media/course/2023/06/22/owner_1_1.svg",
+        "img_color": "https://geeks.kg/back_media/course/2023/06/22/owner-_1__1.svg",
+        "start_date": "Старт: 20.02.2024",
+        "title": "МЕНЕДЖЕР ПРОЕКТОВ",
+        "description": "Стань Менеджером проектов с нуля за 2 месяца! Получи доступ к стажировке и помощь в трудоустройстве!",
+        "duration": "Длительность: 2 месяца",
+        "buttom": "Подробнее"
+    },
+    {
+        "id": 3,
+        "img_grey": "https://geeks.kg/back_media/course/2023/06/22/image_8.svg",
+        "img_color": "https://geeks.kg/back_media/course/2023/06/22/image_7.svg",
+        "start_date": "Старт: 28.02.2024",
+        "title": "FULLSTACK-РАЗРАБОТЧИК",
+        "description": "Стань Fullstack-разработчиком с нуля за 10 месяцев и получи доступ к стажировке + помощь в трудоустройстве!",
+        "duration": "Длительность: 10 месяцев",
+        "buttom": "Подробнее"
+    },
+    {
+        "id": 4,
+        "img_grey": "https://geeks.kg/back_media/course/2023/06/22/ux-design_1_1.svg",
+        "img_color": "https://geeks.kg/back_media/course/2023/06/22/ux-design_1.svg",
+        "start_date": "Старт: 29.02.2024",
+        "title": "UX/UI-ДИЗАЙНЕР",
+        "description": "Стань UX/UI-дизайнером с нуля за 3 месяца и получи доступ к стажировке + помощь в трудоустройстве!",
+        "duration": "Длительность: 3 месяца",
+        "buttom": "Подробнее"
+    },
+    {
+        "id": 5,
+        "img_grey": "https://geeks.kg/back_media/course/2023/06/22/laptop_1_1-1.svg",
+        "img_color": "https://geeks.kg/back_media/course/2023/06/22/laptop_1_1.svg",
+        "start_date": "Старт: 05.02.2024",
+        "title": "ОСНОВЫ ПРОГРАММИРОВАНИЯ",
+        "description": "Изучи основы программирования за 1 месяц и получи максимальную скидку на основные курсы!",
+        "duration": "Длительность: 1 месяц",
+        "buttom": "Подробнее"
+    },
+    {
+        "id": 6,
+        "img_grey": "https://geeks.kg/back_media/course/2023/06/22/free-icon-android-226770_1_yRRYNdo.svg",
+        "img_color": "https://geeks.kg/back_media/course/2023/06/22/free-icon-android-226770_1_yRRYNdo.svg",
+        "start_date": "Старт: 01.02.2024",
+        "title": "ANDROID-РАЗРАБОТЧИК",
+        "description": "Стань Android-разработчиком с нуля за 7 месяцев и получи доступ к стажировке + помощь в трудоустройстве!",
+        "duration": "Длительность: 7 месяцев",
+        "buttom": "Подробнее"
+    },
+    {
+        "id": 7,
+        "img_grey": "https://geeks.kg/back_media/course/2023/06/22/database_2.svg",
+        "img_color": "https://geeks.kg/back_media/course/2023/06/22/database_1.svg",
+        "start_date": "Старт: 28.02.2024",
+        "title": "BACKEND-РАЗРАБОТЧИК",
+        "description": "Стань Backend-разработчиком с нуля за 5 месяцев и получи доступ к стажировке + помощь в трудоустройстве!",
+        "duration": "Длительность: 5 месяцев",
+        "buttom": "Подробнее"
+    },
+    {
+        "id": 8,
+        "img_grey": "https://geeks.kg/back_media/course/2023/06/22/internet_2.svg",
+        "img_color": "https://geeks.kg/back_media/course/2023/06/22/internet_1.svg",
+        "start_date": "Старт: 28.02.2024",
+        "title": "FRONTEND-РАЗРАБОТЧИК",
+        "description": "Стань Frontend-разработчиком с нуля за 5 месяцев и получи доступ к стажировке + помощь в трудоустройстве!",
+        "duration": "Длительность: 5 месяцев",
+        "buttom": "Подробнее"
+    },
+    {
+        "id": 9,
+        "img_grey": "https://geeks.kg/back_media/course/2023/06/22/grid_2.svg",
+        "img_color": "https://geeks.kg/back_media/course/2023/06/22/grid_1.svg",
+        "start_date": "Старт: 13.02.2024",
+        "title": "ПРОГРАММИРОВАНИЕ ДЛЯ ДЕТЕЙ",
+        "description": "Запишите на курсы, пройдя которые ваш ребенок обучится 3D моделированию, основам языка Python и Lua, а также подтянет английский язык!",
+        "duration": "Длительность: 3 месяца",
+        "buttom": "Подробнее"
+    },
+    {
+        "id": 10,
+        "img_grey": "https://geeks.kg/back_media/course/2023/06/22/apple_1-1.svg",
+        "img_color": "https://geeks.kg/back_media/course/2023/06/22/apple_1.svg",
+        "start_date": "Старт: 14.03.2024",
+        "title": "IOS-РАЗРАБОТЧИК",
+        "description": "Стань iOS-разработчиком с нуля за 7 месяцев и получи доступ к стажировке + помощь в трудоустройстве!",
+        "duration": "Длительность: 7 месяцев",
+        "buttom": "Подробнее"
+    }
+]

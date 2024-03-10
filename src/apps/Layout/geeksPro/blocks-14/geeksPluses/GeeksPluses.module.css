@@ -1,0 +1,111 @@
+.container {
+    width: 100%;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    display: block;
+    padding: 0px !important;
+    max-width: 1440px !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+@media only screen and (max-width: 1485px) {
+    .container{
+        padding: 0 80px !important;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .container{
+        padding: 0 60px !important;
+    }
+}
+@media only screen and (max-width: 834px) {
+    .container{
+        padding: 0 60px !important;
+    }
+}
+.main_block {
+    column-gap: 42px;
+    display: flex;
+    padding: 100px 0;
+}
+@media only screen and (max-width: 1200px) {
+    .main_block{
+        flex-direction: column;
+        gap: 20px;
+        padding: 60px 0 ;
+    }
+}
+@media only screen and (max-width: 834px) {
+    .main_block{
+        padding: 20px 0 ;
+    }
+}
+
+.ques_title {
+    font-size: 70px;
+    line-height: 70px;
+    max-width: 467px;
+    font-family: "Reforma Grotesk", sans-serif;
+    font-weight: 800;
+    color: white;
+}
+@media only screen and (max-width: 1200px) {
+    .ques_title{
+        font-size: 70px;
+        line-height: 70px;
+        max-width: 467px;
+    }
+}
+@media only screen and (max-width: 834px) {
+    .ques_title{
+        font-size: 26px;
+        line-height: 28.6px;
+    }
+}
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    --bs-table-bg: #2c2e35;
+
+}
+.table_body {
+    display: table-row-group;
+
+}
+.table_row {
+    border-collapse: collapse;
+    display: table-row;
+    vertical-align: middle;
+    outline: 0;
+}
+@media only screen and (max-width: 834px) {
+    .table_row{
+        display: grid !important;
+    }
+}
+.table_content {
+    border: 1px solid hsla(0,0%,100%,.24)!important;
+    padding: 60px 20px!important;
+
+}
+@media only screen and (max-width: 834px) {
+    .table_content{
+        padding: 12px !important;
+    }
+}
+.table_text {
+    color: yellow;
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif !important;
+}
+@media only screen and (max-width: 834px) {
+    .table_text{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,157 @@
+:root {
+    --color-yellow: #ffe743;
+  }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.conteiner {
+  max-width: 1465px;
+}
+
+.titleBlockCol {
+  margin: 145px 0 117px;
+  padding: 0;
+  
+}
+
+.titleCours {
+    color: var(--color-yellow);
+    font-family: 'Reforma Grotesk', sans-serif;
+    font-size: 150px;
+    font-weight: 800;
+    line-height: 150px;
+    max-width: 100%;
+    position: relative;
+    padding: 0 0 0 10px;
+}
+
+
+
+.titleCoursIn {
+  color: #fff;
+}
+
+.postTitleCours {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 140%;
+    margin: 24px 0 0 0;
+    max-width: 1120px;
+    padding: 0 0 0 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+
+hr {
+  border-color: var(--color-yellow);
+  border-width: 16px ;
+  left: -1px;
+  top: -10px;
+  position: absolute;
+  top: 324px; /*344 если будет header*/
+  transform: translateX(calc(-50% + 8px)) rotate(90deg);
+  width: 238px;
+  opacity: 1;
+  z-index: 10;
+}
+
+
+
+/* штука с анимацией*/
+
+.showContent {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.showContentBottom {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 2;
+  padding: 130px 0 0 0;
+}
+
+.showBlock{
+  flex: 0 0 auto;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+}
+
+
+.showTextCours {
+  color:  #2c2e35;
+  font-family: 'Reforma Grotesk', sans-serif;
+  font-size: 150px;
+  font-weight: 800;
+  line-height: 124px;
+  overflow: hidden;
+  text-transform: uppercase;
+  margin-right: 10px;
+  animation: scroll 15s linear infinite;
+  transform: translateX(0%);
+  flex: 1;
+  white-space: nowrap;
+  width: 100%;
+  overflow: visible; 
+  text-shadow: 
+  -1px -1px 0 rgba(255, 255, 255, 0.1),  
+   1px -1px 0 rgba(255, 255, 255, 0.1),
+  -1px  1px 0 rgba(255, 255, 255, 0.1),
+   1px  1px 0 rgba(255, 255, 255, 0.1);
+  word-spacing: -13px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.showTextCoursBottom {
+  color:  #2c2e35;
+  font-family: 'Reforma Grotesk', sans-serif;
+  font-size: 150px;
+  font-weight: 800;
+  line-height: 124px;
+  overflow: hidden;
+  text-transform: uppercase;
+  margin-right: 10px;
+  animation: scrolle 15s linear infinite;
+  transform: translateX(0%);
+  flex: 1;
+  white-space: nowrap;
+  width: 100%;
+  overflow: visible; 
+  text-shadow: 
+  -1px -1px 0 rgba(255, 255, 255, 0.1),  
+   1px -1px 0 rgba(255, 255, 255, 0.1),
+  -1px  1px 0 rgba(255, 255, 255, 0.1),
+   1px  1px 0 rgba(255, 255, 255, 0.1);
+  word-spacing: -13px;
+}
+
+@keyframes scrolle {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

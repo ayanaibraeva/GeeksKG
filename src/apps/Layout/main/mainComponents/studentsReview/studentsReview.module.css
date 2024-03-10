@@ -1,0 +1,88 @@
+
+.sliderContainer {
+    position: relative;
+}
+
+.containerTitle {
+    margin-left: 50px;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 110%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.sliderInner {
+    margin-top: 40px;
+    padding-left: calc(50vw - 720px);
+    width: 100%;
+}
+
+.reviewSlide {
+    background-color: hsla(0, 0%, 50%, .498);
+    height: 300px;
+    max-width: 549px !important;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.reviewSlide::after {
+    animation: StudentReviewsAnimate 1.5s ease-out infinite;
+    animation-delay: 1s;
+    background: hsla(0, 0%, 100%, .498);
+    content: "";
+    filter: blur(30px);
+    height: 180%;
+    position: absolute;
+    right: -120px;
+    top: -80%;
+    transform: rotate(-45deg);
+    width: 100px;
+    z-index: 10;
+}
+
+@keyframes StudentReviewsAnimate {
+    0% {
+        right: -120px;
+    }
+    100% {
+        right: 120%;
+        top: 0;
+    }
+}
+
+.reviewIframe {
+    position: relative;
+    z-index: 99;
+}
+
+.buttonSwiper {
+    display: flex;
+    column-gap: 24px;
+}
+
+.swiperButtonPrev,
+.swiperButtonNext {
+    background: #fff;
+    cursor: pointer;
+    height: 94.14px;
+    width: 94.5px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.swiperButtonPrev:hover,
+.swiperButtonNext:hover {
+    background: linear-gradient(0deg, rgba(44, 46, 53, .1), rgba(44, 46, 53, .1)), #fff;
+}
+
+.buttonArrangement {
+    position: absolute;
+    top: -10px;
+    right: 50px;
+}

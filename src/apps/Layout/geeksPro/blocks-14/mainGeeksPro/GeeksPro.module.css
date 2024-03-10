@@ -1,0 +1,220 @@
+.container {
+    width: 100%;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    display: block;
+    padding: 0px !important;
+    max-width: 1440px !important;
+}
+@media only screen and (max-width: 1485px) {
+    .container{
+        padding: 0 80px !important;
+    }
+}
+@media only screen and (max-width: 673px) {
+    .container{
+        padding: 0 16px !important;
+    }
+}
+.main_title {
+    color: #ffe743;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Reforma Grotesk',sans-serif;
+    line-height: 100%;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 1200px){
+    .main_title {
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width: 834px){
+    .main_title {
+        font-size: 40px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 430px){
+    .main_title {
+        font-size: 26px;
+    }
+}
+
+.MainGeeksPro {
+    margin: 60px 0 ;
+}
+.geeks_content {
+    display: flex;
+    justify-content: space-between;
+    margin: 127px 0 10px
+}
+@media only screen  and (max-width: 1200px) {
+    .geeks_content{
+        align-items: center;
+        flex-direction: column-reverse;
+        margin: 80px 0 0;
+    }
+}
+.geeks_img {
+    margin-right: 96px;
+}
+@media only screen and (max-width: 1200px){
+    .geeks_img {
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .geeks_img img{
+        max-width: 63.44vw;
+    }
+}
+
+.geeks_text {
+    max-width: 565px;
+}
+@media only screen and (max-width: 1484px){
+    .geeks_text {
+        padding: 0 80px !important;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .geeks_text {
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 673px){
+    .geeks_text {
+        padding: 0 16px !important;
+    }
+}
+.main_p {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36.4px;
+    text-transform: uppercase;
+}
+.first_p {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    text-align: left;
+    font-size: 26px;
+    font-weight: 500;
+}
+.second_p {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    text-align: left;
+    font-size: 26px;
+    font-weight: 500;
+}
+@media only screen and (max-width: 834px){
+    .main_p {
+        font-size: 12px;
+        line-height: 16.8px;
+        max-width: 208px;
+    }
+}
+.second_p span{
+    color: yellow;
+    font-size: 32px;
+    font-weight: 700;
+}
+.enter_btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+    margin: 0;
+    padding: 12px 24px !important;
+    cursor: pointer;
+    border-radius: 0;
+    border: 2px solid white;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+@media only screen and (max-width: 834px){
+    .enter_btn {
+        width: 100%;
+        padding: 6px 8px;
+    }
+}
+
+.geeks_statistics {
+    padding: 50px 0 0 0 ;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 65px 100px;
+}
+.main_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    align-items: flex-start;
+}
+@media only screen and (max-width: 1200px){
+    .main_list {
+        display: grid;
+        grid-template-columns: 390px;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 834px){
+    .main_list {
+        grid-template-columns: 238px
+    }
+}
+.stat_list {
+    display: grid;
+    justify-content: center;
+    padding: 8px 0 0 ;
+    row-gap: 4px;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.stat_list h4 {
+    color: yellow;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    line-height: 72px;
+    text-align: center
+}
+@media only screen and (max-width: 834px){
+    .stat_list h4 {
+        font-size: 30px;
+        letter-spacing: -.6px;
+        line-height: normal;
+    }
+}
+.stat_list p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
+}
+@media only screen and (max-width: 834px){
+    .stat_list p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

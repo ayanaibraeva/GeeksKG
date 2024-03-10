@@ -1,0 +1,162 @@
+.GeeksCompanies {
+    background: white;
+    padding: 60px 0;
+}
+
+.container {
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    display: block;
+    padding: 0px !important;
+    max-width: 1440px !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+@media only screen and (max-width: 1485px) {
+    .container{
+        padding: 0 80px !important;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .container{
+        padding: 0 60px !important;
+    }
+}
+@media only screen and (max-width: 834px) {
+    .container{
+        padding: 0 40px !important;
+    }
+}
+
+.title_button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%
+}
+.slider_container {
+    margin-top: 40px;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    padding: 0px !important;
+    max-width: 1475px !important;
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+    position: relative;
+    left: 20px;
+}
+.partners {
+    color: #2c2e35;
+    font-family: "Reforma Grotesk", sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 110%;
+    text-transform: uppercase;
+    white-space: pre-wrap
+}
+@media only screen and (max-width: 1485px) {
+    .partners{
+        font-size: 58px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .partners{
+        font-size: 50px;
+        line-height: 100%;
+    }
+}
+@media only screen and (max-width: 834px) {
+    .partners{
+        font-size: 40px;
+        line-height: 110%;
+        max-width: 260px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .partners{
+        font-size: 26px;
+        line-height: 110%;
+        max-width: fit-content;
+    }
+}
+.slider_wrap {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 230px;
+}
+@media only screen and (max-width: 1490px) {
+    .slider_wrap{
+        padding: 0 60px !important;
+    }
+}
+.slider {
+    cursor: grab;
+    transition-duration: 0ms;
+}
+.slider_button {
+    display: flex;
+    column-gap: 24px;
+}
+@media only screen and (max-width: 1200px) {
+    .slider_button{
+        column-gap: 14.5px;
+    }
+}
+@media only screen and (max-width: 834px) {
+    .slider_button{
+        column-gap: 12px;
+    }
+}
+.arrow_button:hover{
+    background: linear-gradient(0deg, hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), #2c2e35 !important;
+}
+.arrow_button{
+    background: #2c2e35 !important;
+    cursor: pointer;
+    height: 94.14px !important;
+    width: 94.5px !important;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    text-align: center;
+    flex: 0 0 auto;
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 50%;
+    overflow: visible;
+    color: rgba(0, 0, 0, 0.54);
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+@media only screen and (max-width: 1200px) {
+    .arrow_button{
+        height: 69.5px !important;
+        width: 69.5px !important;
+    }
+}
+@media only screen and (max-width: 834px) {
+    .arrow_button{
+        height: 44px !important;
+        width: 44px !important;
+    }
+}

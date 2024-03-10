@@ -1,0 +1,81 @@
+.container {
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.signIn_wrap {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: #343332;
+    display: grid;
+    place-content: center;
+    width: 954px;
+    height: 546px;
+}
+
+
+.signIn_title {
+    font-size: 70px;
+    text-align: center;
+    color: #ffe743;
+    font-family: "Reforma Grotesk", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 40px;
+    text-transform: uppercase
+}
+.signIn_form {
+    max-width: 380px;
+}
+.signIn_input {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: inherit;
+    line-height: normal;
+    margin-bottom: 20px;
+    padding: 12px;
+    width: 100%;
+    outline: none;
+}
+.btn_enter {
+    padding: 12px 24px;
+    line-height: 22px !important;
+    background-color: #ffe743;
+    color: #2c2e35;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    cursor: pointer;
+}
+.signIn_enter {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 8px
+}
+.close_btn {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 16px;
+    width: 120px;
+    height: 30px;
+    color: #2c2e35;
+    background-color: #ffe743;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}

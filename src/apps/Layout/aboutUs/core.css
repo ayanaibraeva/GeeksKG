@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    height: 0;
+}
+.container {
+    width: 110px;
+    margin: 0 auto;
+}
+body {
+    background: #2c2e35;
+}

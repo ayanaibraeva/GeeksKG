@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1465px;
+}
+
+.allUser {
+    padding: 235px 0 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.groupUsersBlock {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 225px 0 124px 0;
+}
+
+.userBlock {
+    background: #fff;
+    border-radius: 0;
+    height: 543px;
+    padding: 52px 40px 40px;
+    position: relative;
+    width: 467px;
+    color: #000;
+}
+
+
+
+
+.userBlockImage {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+  }
+  
+  .userBlockImage img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .userBlockImage img.gray {
+    filter: grayscale(100%);
+  }
+  
+  .userBlockImage img.color {
+    filter: grayscale(0%);
+    opacity: 0;
+  }
+  
+  .userBlock:hover img.gray {
+    opacity: 0;
+  }
+  
+  .userBlock:hover img.color {
+    opacity: 1;
+  }
+  
+.userBlockData {
+    align-items: center;
+    background: #ffe743;
+    border-radius: 100px;
+    color: #2c2e35;
+    display: flex;
+    font-weight: 500;
+    height: 23px;
+    justify-content: center;
+    margin-top: 30px;
+    width: 152px;
+}
+
+.userBlockTitle {
+    font-family: 'Reforma Grotesk', sans-serif;
+    color: #2c2e35;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 100% ;
+    margin-top: 40px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+.userBlockInfo {
+    color: #2c2e35;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 13px 0 0 0;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.userBlockDuration{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    margin: 8px 0 0 0;
+    padding-bottom: 60px;
+    text-align: left;
+    font-family: 'Montserrat';
+}
+
+
+
+.userBlockBottom {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+
+.userBlockText{
+  color: #2c2e35;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  padding: 2px 0px;
+  text-transform: uppercase;
+  transition: all .3s ease-out;
+  margin: 0;
+  font-family: 'Montserrat';
+  z-index: 5;
+}
+
+.userBlockBottom:hover .userBlockText:hover {
+  font-weight: 800;
+  font-size: 14px;
+  transition:1s;
+}
+
+.userBlockArrow {
+  height: 25px;
+  width: 25px;
+}
