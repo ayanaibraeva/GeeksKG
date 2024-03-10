@@ -59,7 +59,7 @@ const SignUp = () => {
                 Create account
             </button>
             <Link to="/auth/login" style={{color: 'yellow'}}>есть аккаунт? / войти</Link>
-            {error && <p style={{color: 'red'}}>{error}</p>}
+            {error && <p style={{color: 'red'}}>Ошибка</p>}
         </div>
 
     );

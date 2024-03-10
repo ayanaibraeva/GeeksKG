@@ -25,11 +25,6 @@ export const NavbarList = [
         route: "/aboutUs"
     },
     {
-        id: 6,
-        caption: "ПРЕИМУЩЕСТВА",
-        route: "/advantages"
-    },
-    {
         id: 7,
         caption: "Войти",
         route: "/auth/login"

@@ -51,7 +51,7 @@ const SignIn = () => {
             <Link to="/auth/register" style={{color: 'yellow'}}>Нет аккаунта?/Зарегистрироваться</Link>
             {
                 error &&
-                <p style={{color: 'red'}}>{error}</p>
+                <p style={{color: 'red'}}>Ошибка!</p>
             }
         </div>
     );

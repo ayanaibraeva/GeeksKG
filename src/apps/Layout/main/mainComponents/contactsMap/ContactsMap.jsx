@@ -2,10 +2,11 @@ import React from 'react'
 import classes from './contactsMap.module.css'
 import { useRef, useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-// import mapboxgl from "mapbox-gl";
+import { mapboxgl } from "mapbox-gl";
+
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { selectCity } from '../../../../../store/ContactsSlice';
-import mapboxgl from "mapbox-gl";
+
 
 
 export const ContactsBox = () => {
